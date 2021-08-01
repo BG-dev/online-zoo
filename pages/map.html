@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetStory-online</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="../index.html" class="header__logo-link">
+                        <img src="../assets/logo.svg" alt="logo" class="header__logo-img">    
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="../index.html" class="header__link">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="map.html" class="header__link">Map</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./zoos/cam_panda_online.html" class="header__link">Zoos</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Contact us</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header__link">Designed by ©</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="map">
+            <div class="container">
+                <div class="map__bg">
+                    <img src="../assets/Group.png" alt="Map" class="map__bg-img">
+                    <div class="map__locations">
+                        <div class="map__location-us">
+                            <p>
+                                United States
+                            </p>
+                        </div>
+                        <div class="map__location-la">
+                            <p>
+                                Los Angeles
+                            </p>
+                        </div>
+                        <div class="map__location-fl">
+                            <p>
+                                Florida
+                            </p>
+                        </div>
+                        <div class="map__location-cn">
+                            <p>
+                                Congo
+                            </p>
+                        </div>
+                        <div class="map__location-ch">
+                            <p>
+                                China
+                            </p>
+                        </div>
+                    </div>
+                    <div class="map__points">
+                        <div class="map__point-la">
+                            <img src="../assets/point.svg" alt="Point">
+                        </div>
+                        <div class="map__point-fl">
+                            <img src="../assets/point.svg" alt="Point">
+                        </div>
+                        <div class="map__point-cn">
+                            <img src="../assets/point.svg" alt="Point">
+                        </div>
+                        <div class="map__point-ch-1">
+                            <img src="../assets/point.svg" alt="Point">
+                        </div>
+                        <div class="map__point-ch-2">
+                            <img src="../assets/point.svg" alt="Point">
+                        </div>
+                    </div>
+                    <div class="map__animals">
+                        <div class="map__animal-eagle-1">
+                            <img src="../assets/eagle1.png" id="eagle-1" alt="Eagle">
+                            <div class="tooltip" id="eagle-tooltip">  
+                                <div class="tooltip-paragraphs">
+                                    <p>Eagles</p>
+                                    <p>Los Angeles, USA</p>
+                                </div>                     
+                                <div class="tooltip-button">
+                                    <a href="#" >Watch online</a>
+                                </div>         
+                            </div> 
+                        </div>
+                        <div class="map__animal-eagle-2">
+                            <img src="../assets/eagle2.png" id="eagle-2" alt="Eagle">
+                            <div class="tooltip" id="eagle-tooltip">  
+                                <div class="tooltip-paragraphs">
+                                    <p>Eagles</p>
+                                    <p>Los Angeles, USA</p>
+                                </div>                     
+                                <div class="tooltip-button">
+                                    <a href="#" >Watch online</a>
+                                </div>         
+                            </div> 
+                        </div>
+                        <div class="map__animal-crocodile">
+                            <img src="../assets/lonely-crocodile.png" id="crocodile" alt="Crocodile">
+                            <div class="tooltip" id="eagle-tooltip">  
+                                <div class="tooltip-paragraphs">
+                                    <p>Alligators</p>
+                                    <p>Florida, USA</p>
+                                </div>                     
+                                <div class="tooltip-button">
+                                    <a href="#" >Watch online</a>
+                                </div>         
+                            </div> 
+                        </div>
+                        <div class="map__animal-gorillas">
+                            <img src="../assets/gorillas.png" id="gorillas" alt="Gorillas">
+                            <div class="tooltip" id="eagle-tooltip">  
+                                <div class="tooltip-paragraphs">
+                                    <p>Gorillas</p>
+                                    <p>Congo</p>
+                                </div>                     
+                                <div class="tooltip-button">
+                                    <a href="#" >Watch online</a>
+                                </div>         
+                            </div> 
+                        </div>
+                        <div class="map__animal-panda">
+                            <img src="../assets/panda.png" id="panda" alt="Panda">
+                            <div class="tooltip" id="eagle-tooltip">  
+                                <div class="tooltip-paragraphs">
+                                    <p>Pandas</p>
+                                    <p>China</p>
+                                </div>                     
+                                <div class="tooltip-button">
+                                    <a href="#" >Watch online</a>
+                                </div>         
+                            </div> 
+                        </div>
+                        <div class="map__animal-pandas">
+                            <img src="../assets/pandas.png" id="pandas" alt="Pandas">
+                            <div class="tooltip" id="eagle-tooltip">  
+                                <div class="tooltip-paragraphs">
+                                    <p>Pandas</p>
+                                    <p>China</p>
+                                </div>                     
+                                <div class="tooltip-button">
+                                    <a href="#" >Watch online</a>
+                                </div>         
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="map__zoom">
+                    <div class="map__zoom-btn">
+                        <svg  width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                            <path class="map__zoom-img" d="M16 0a3 3 0 00-3 3v10H3a3 3 0 000 6h10v10a3 3 0 006 0V19h10a3 3 0 000-6H19V3a3 3 0 00-3-3z" fill="#333B41"/>
+                        </svg>
+                    </div>
+                    <div class="map__zoom-btn">
+                        <svg width="32" height="6" xmlns="http://www.w3.org/2000/svg">
+                            <path class="map__zoom-img" fill-rule="evenodd" clip-rule="evenodd" d="M3.13 6h25.693C30.573 6 32 4.642 32 3.022 32 1.358 30.573 0 28.823 0H3.131C1.427 0 0 1.358 0 3.022 0 4.642 1.427 6 3.13 6z" fill="#333B41"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__wrapper">
+                    <div class="footer__logo">
+                        <a href="../index.html" class="footer__logo-link">
+                            <img src="../assets/logo.svg" alt="logo" class="footer__logo-img">    
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__subscribe">
+                    <p class="footer__subtitle subtitle">
+                        Subscribe to our news
+                    </p>
+                    <div class="footer__form">
+                        <div class="footer__input">
+                            <input type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="footer__form-btn">
+                            <a href="#" class="btn-rect">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__btn">
+                <a href="donate.html" class="btn-rect">donate for volunteers</a>
+            </div>
+            <div class="footer__menu">
+                <div class="footer__socials">
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com">
+                            <div class="footer__social-img">
+                                <img src="../assets/facebook.svg" alt="Facebook" class="footer__social-icon">
+                            </div>
+                            <p class="footer__social-title">
+                                Facebook
+                            </p>
+                        </a>       
+                    </div>
+                    <div class="footer__social">
+                        <a href="https://twitter.com/home">
+                            <div class="footer__social-img">
+                                <img src="../assets/twitter.svg" alt="Twitter" class="footer__social-icon">
+                            </div>
+                            <p class="footer__social-title">
+                                Twitter
+                            </p>
+                        </a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com">
+                            <div class="footer__social-img">
+                                <img src="../assets/inst.svg" alt="Instagram" class="footer__social-icon">
+                            </div>
+                            <p class="footer__social-title">
+                                Instagram
+                            </p>
+                        </a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="https://www.youtube.com">
+                            <div class="footer__social-img">
+                                <img src="../assets/youtube.svg" alt="YouTube" class="footer__social-icon">
+                            </div>
+                            <p class="footer__social-title">
+                                YouTube
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="../index.html" class="header__link">About</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="map.html" class="footer__link">Map</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="./zoos/cam_panda_online.html" class="footer__link">Zoos</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__author">
+                    <a href="#">
+                        <p>
+                            Designed by Alisa Samborskaya
+                        </p>
+                    </a>
+                    <a href="#">
+                        <p>
+                            ©RSSchool & ©Yem Digital 2021
+                        </p>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
